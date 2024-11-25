@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 class Person{
@@ -16,10 +16,10 @@ int main(){
     cout<<"His age is "<<P1.age;
 
     return 0;
-}*/
+}
 
 
-//Second method of doing above question, in this we have also defined 2 methods inside class
+//Second way of doing above exmaple,  this time we have also defined 2 methods inside class
 
 #include <iostream>
 using namespace std;

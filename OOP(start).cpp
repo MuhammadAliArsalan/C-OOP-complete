@@ -9,7 +9,7 @@ class Person{
 };
 int main(){
     Person P1;    // P1 is object
-    P1.Name="M.Ali";
+    P1.Name="M.Ali";    // attributes can be accessed by making objects of the class 
     P1.age=21;
 
     cout<<"Person's name is "<<P1.Name<<endl; 
@@ -54,7 +54,7 @@ class Person2{
 int main(){
 
 	Person2 P2;   //P2 is object
-	P2.getDetails();
+	P2.getDetails();    // methods can be accessed by making an object of the class.
 	cout<<"\tPERSON's DETAILS"<<endl;
 	P2.displayDetails();
 	return 0;

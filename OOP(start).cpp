@@ -43,10 +43,10 @@ class Person2{
 			
 			cout<<Name<<" lives at: ";
 			getline(cin,address);	
-	    }
+	        }
 	    
-	    void displayDetails(){     //method to display Person's details on console
-	    	cout<<"This is "<<Name<<" who is "<<age<<" years old and lives at "<<address<<endl;
+	       void displayDetails(){     //method to display Person's details on console
+	    	        cout<<"This is "<<Name<<" who is "<<age<<" years old and lives at "<<address<<endl;
 		}
 	    
 };

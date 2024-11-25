@@ -12,7 +12,7 @@ class Student{
 			stdName=name;
 			CGPA=grades;
 		}
-	    void displayName(){
+	        void displayName(){
 	    	cout<<"The student's name is: "<<stdName<<" and his CGPA is "<<CGPA;
 		}
 		

@@ -2,11 +2,10 @@ import java.util.Scanner;
 
 import javax.print.DocFlavor.STRING;
 
-/*public class tut1{
+public class tut1{
     String fName="Ali";
     String lName="Hasan";
     
-
     static void getAge(){
         Scanner promptage=new Scanner(System.in);
         System.out.print("Enter the age of person: ");
@@ -14,18 +13,17 @@ import javax.print.DocFlavor.STRING;
         System.out.println("Age: "+age);
 
         promptage.close();
-
     }
-
     public static void main(String[] args){
         tut1 Person=new tut1();
         System.out.println("Person's full name is "+Person.fName+""+Person.lName);
         tut1.getAge();  //accessed getAge in a static way b/c keyword "static" is used with getAge method
 
     }
-}*/
+}
+//  -------------------
 
-/*public class tut1{
+public class tut1{
 
     double GPA=3.23;
 
@@ -48,10 +46,10 @@ import javax.print.DocFlavor.STRING;
         StdName.getName();
         System.out.println("His GPA in 3rd semester "+StdName.GPA);
         System.out.println("His GPA in 4th semester "+StdName2.GPA);
-
     }
+}
 
-}*/
+// --------------------------------
 
 
 class MathUtils{
@@ -64,7 +62,7 @@ public class tut1{
     public static void main(String[] args){
         tut1 changeValue=new tut1();
         System.out.print("Value of PI is "+MathUtils.PI); //Static variables like PI that belong to the class,
-       // changeValue.SPEED_OF_LIGHT=213456782;  // gives error
+        changeValue.SPEED_OF_LIGHT=213456782;  // gives error
         System.out.println("The speed of light is "+changeValue.SPEED_OF_LIGHT);
 
     }

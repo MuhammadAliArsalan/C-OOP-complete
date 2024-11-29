@@ -1,9 +1,14 @@
 import java.util.Scanner;
 
-/*public class tut2{
+public class tut2{
+    //  Static method: belongs to the class, can be called without creating an object
+    
     static void myMethod(){
         System.out.println("This is a method to print Person's name");
     }
+    
+    //(public) method: requires an object of the class to be invoked
+    
     public void addNum(){
         Scanner scan=new Scanner(System.in);
         System.out.print("Enter first number: ");
@@ -22,7 +27,9 @@ import java.util.Scanner;
         Add.addNum();  //Public methods like "addNum()" must be called by creating objects
 
     }
-}*/
+}
+
+//  ------------------
 
 public class tut2{
     public void setInitialSpeed(int iSpeed){

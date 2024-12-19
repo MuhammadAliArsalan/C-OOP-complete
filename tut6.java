@@ -1,3 +1,5 @@
+// INHERITANCE
+
 /*class tut6 {
     protected String brand="Ford";
 

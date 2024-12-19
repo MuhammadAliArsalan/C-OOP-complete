@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tut2{
+/*public class tut2{
     //  Static method: belongs to the class, can be called without creating an object
     
     static void myMethod(){
@@ -27,7 +27,7 @@ public class tut2{
         Add.addNum();  //Public methods like "addNum()" must be called by creating objects
 
     }
-}
+}*/
 
 //  ------------------
 

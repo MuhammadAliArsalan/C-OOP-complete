@@ -1,6 +1,7 @@
 //POLYMORPHISM
 
 //METHOD OVERLOADING  --COMPILE TIME POLYMORPHISM
+
 /*public class Animal {
     int Add(int a,int b){
         System.out.println("Sum of integers: " + (a + b));
@@ -21,12 +22,11 @@
         display.Add("Ali", "Arslan");
         display.Add(134,156);
         
-    }
-
-    
+    }    
 }*/
 
 // RUN_TIME PLOYMORPHISM  -- METHOD OVERRIDING
+
 class Animal{
     void makeSound(){
         System.out.println("Animal makes a sound");

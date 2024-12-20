@@ -1,4 +1,4 @@
-/*public class Mdarray{
+public class Mdarray{
     public static void main(String[] args) {
         int[][] myNumbers={
 
@@ -31,13 +31,16 @@
        //PRINTING ELEMENTS USING FOR-EACH
 
        for(int[] row:myNumbers){
+           //This loop iterates over each row in myNumbers.
+           
          for(int i:row){
+             //This loop iterates over each element in the current row
             System.out.println(i+" ");
          }
        }
         
     }
-}*/
+}
 
 //JAGGED ARRAY --- 2D array where each row can have a different number of columns. 
 

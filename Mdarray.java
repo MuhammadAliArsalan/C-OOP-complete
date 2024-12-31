@@ -1,4 +1,4 @@
-public class Mdarray{
+/*public class Mdarray{
     public static void main(String[] args) {
         int[][] myNumbers={
 

@@ -33,7 +33,7 @@ public class tut3{
     int model;
     String carName;
 
-    private tut3(int m, String cN){
+    private tut3(int m, String cN){  
         model=m;
         carName=cN;
     }

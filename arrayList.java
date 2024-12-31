@@ -1,9 +1,10 @@
+
 import java.util.ArrayList;
 import java.util.Collections;
 
 /*public class arrayList {
     public static void main(String[] args) {
-        ArrayList<String> Cars=new ArrayList<String>();
+        ArrayList<String> Cars=new ArrayList<>();
 
         //ADDING ITEMS
         Cars.add("Volvo");
@@ -48,7 +49,7 @@ import java.util.Collections;
 
 public class arrayList{
     public static void main(String[] args) {
-        ArrayList<Integer> Marks=new ArrayList<Integer>();
+        ArrayList<Integer> Marks=new ArrayList<>();
 
         //ADDING ELEMENTS
 
